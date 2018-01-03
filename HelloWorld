@@ -1,0 +1,23 @@
+//Activate Systme Namespace
+using System;
+
+//create namespace HelloWorld
+namespace HelloWorld
+{
+    //create a class named Program
+    class Program
+    {
+        //static Keyword means relating to the type itself, rather than an instance of the type
+        //void refers to A method that takes no parameters and returns no value is declared
+        //Main is the method name
+        //string[] is a parameter inside main that tells what it'll make
+        //arg is short for arguements
+        static void Main(string[] args)
+        {
+            //this function write hello world in consol
+            Console.WriteLine("Hello World!");
+            //this method take input from user and is used here as a hack to keep the program open long enough to read hello world
+            Console.ReadLine();
+        }
+    }
+}
